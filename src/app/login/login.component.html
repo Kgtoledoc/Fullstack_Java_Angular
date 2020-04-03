@@ -1,0 +1,25 @@
+<h1>Log In</h1>
+<form class="loginForm" (submit)="login()">
+  <input
+    class="input"
+    required
+    placeholder="Enter username"
+    [(ngModel)]="userData.username"
+    name="username"
+    type="text"
+  />
+
+  <input
+    class="input"
+    required
+    placeholder="Enter password"
+    [(ngModel)]="userData.password"
+    name="password"
+    type="password"
+  />
+
+  <div class="error" *ngIf="error">
+    <label>ERROR: invalid info</label>
+  </div>
+  <input class="submitBtn" type="submit" value="Submit" />
+</form>

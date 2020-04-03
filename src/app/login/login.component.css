@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.input {
+  width: 25em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+
+  border: 0px;
+  border-bottom: 1px solid black;
+}
+
+.error {
+  color: red;
+  width: 25em;
+  height: 2em;
+  padding-top: 0.5em;
+  font-size: 1em;
+}
+
+.submitBtn {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 2px;
+  font-size: 1em;
+  margin-left: 0.5em;
+}
